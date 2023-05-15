@@ -1,0 +1,9 @@
+PEMOGRAMAN DASAR2 (15 MEI 2023)
+MATERI STACK-QUEEE
+
+#Pembahasan singkat#
+mengenai praktikum pada pertemuan kali ini yaitu pada precobaan 1 membahas tentang stuck dimana pada materi stuck yaitu membahas
+tumpukan merupakan sebuah koleksi objek yang menggunakan prinsip LIFO, yaitu data yang terakhir kali dimasukkan akan pertama kali keluar
+dari tumpukan tersebut dan Operasi untuk memasukkan data biasa disebut push dan operasi untuk mengeluarkan biasanya disebut pop. 
+Dan selanjutnya terdapat queue dimana pada materi ini queue artinya antrian dan struktur data linier yang menerapkan prinsip operasi 
+dimana elemen data yang masuk pertama akan keluar lebih dulu. Prinsip ini dikenal dengan istilah FIFO (First In, First Out).
