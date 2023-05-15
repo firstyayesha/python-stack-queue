@@ -1,6 +1,7 @@
 stack=[]
 
-def tambah_buku(stack, buku_baru):
+def tambah_buku(stack,nama_buku,nama_penggarang):
+    buku_baru=[nama_buku,nama_penggarang]
     stack.append(buku_baru) 
     print(f"{buku_baru} berhasil ditambahkan ke dalam stack.")
 
@@ -28,8 +29,9 @@ while True:
 
     pilihan = input("Masukkan pilihan Anda (1/2/3/4):")
     if pilihan=="1":
-        buku_baru=input("Masukkan nama buku yang akan ditambahkan: ")
-        tambah_buku(stack, buku_baru)
+        nama_buku=input("Masukkan nama buku yang akan ditambahkan: ")
+        nama_penggarang=input("Masukan nama penggarang yang akan ditambahkan:")
+        tambah_buku(stack, nama_buku,nama_penggarang)
     elif pilihan=="2":
         hapus_buku_terakhir(stack)
     elif pilihan=="3":
